@@ -1,0 +1,49 @@
+h1{
+    color: #f00;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+h2{
+    color: #0f0;
+}
+
+#caja1{
+    width: 400px;
+    height: 150px;
+    background: #0f0;
+    margin-bottom: 4px;
+    border: #222 2px solid;
+}
+#caja1:hover{
+    transform: rotate(45deg);
+}
+
+#caja2{
+    width: 500px;
+    height: 50px;
+    background: #8400ff;
+    margin-bottom: 4px;
+}
+
+#caja3{
+    width: 400px;
+    height: 50px;
+    background: #ff00ea;
+    margin-bottom: 4px;
+}
+#caja3:hover{
+    width: 500px;
+}
+#caja4{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #ff00ea;
+    margin-bottom: 4px;
+
+}
+#caja4:hover{
+    background: #222;
+    border-radius: 0;
+}
