@@ -1,0 +1,27 @@
+/* *{
+    
+    opacity: 1;
+} */
+
+#caja1{
+    width: 200px;
+    height: 200px;
+    background: #f00;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+}
+
+#caja1:hover{
+    background: #00ff00;
+    border-radius: 50%;
+}
+#paisaje{
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+#paisaje:hover{
+    transform: rotate(180deg);
+}
