@@ -1,0 +1,17 @@
+#caja1{
+    background: #f00;    
+}
+
+#caja2{    
+    background: #51ff00;    
+}
+
+#caja3{
+    background: #0077ff;   
+}
+
+.cajas{
+    width: 50%;
+    height: 50px;
+    margin-bottom: 10px;
+}
